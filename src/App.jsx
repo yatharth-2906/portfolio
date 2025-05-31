@@ -225,7 +225,7 @@ function App() {
                 functionality to build web applications that engage and delight users.
               </p>
               <div className="about-btns">
-                <a href="#" className="btn">Download CV</a>
+                <a href="https://drive.google.com/file/d/1m8LW2GvO1CMG-5i7PdZU2-awXlzEl14g/view?usp=drive_link" target='_blank' className="btn">Download CV</a>
                 <a href="#contact" className="btn btn-secondary">Contact Me</a>
               </div>
             </div>
