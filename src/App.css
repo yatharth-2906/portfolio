@@ -357,6 +357,7 @@ nav {
 }
 
 .about-text p {
+    text-align: justify;
     margin-bottom: 15px;
     color: var(--text-light);
 }
@@ -470,6 +471,7 @@ nav {
 }
 
 .project-info p {
+    text-align: justify;
     color: var(--text-light);
     margin-bottom: 15px;
 }

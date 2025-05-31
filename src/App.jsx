@@ -199,9 +199,9 @@ function App() {
           <h2 id="job-title"></h2>
           <p className="para-center">
             I build and deploy Full Stack MERN Applications, with experience of working on
-            real world projects. I have also integrated machine learning services into these
+            real world projects. I have also integrated machine learning services into many
             applications to deliver intelligent and data driven solutions. Beyond coding, I am
-            passionate about travel and discussions on space exploration & quantum computing.
+            passionate about traveling and engaging in discussions on space exploration and quantum computing.
           </p>
           <a href="#projects" className="btn">View My Work</a>
         </div>
@@ -219,7 +219,7 @@ function App() {
             </div>
             <div className="about-text">
               <p>
-                I am a passionate Software Engineer specializing in Full Stack MERN Technology.
+                I am a passionate Software Engineer specializing in Full Stack MERN Development.
                 I enjoy building user friendly and responsive web applications that not only look great
                 but also provide seamless and intuitive user experiences. My goal is to combine creativity with
                 functionality to build web applications that engage and delight users.
