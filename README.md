@@ -25,7 +25,7 @@ A full-stack platform to manage and share all your social links via a single nes
 - 📧 [Email](mailto:yatharth2906@gmail.com)
 - 💼 [LinkedIn](https://linkedin.com/in/yatharth2906)
 - 🐙 [GitHub](https://github.com/yatharth-2906)
-- 🌍 [Portfolio](https://yatharth2906-portfolio.vercel.app)
+- 🌍 [Portfolio](https://yatharth2906.vercel.app)
 
 --- 
 
