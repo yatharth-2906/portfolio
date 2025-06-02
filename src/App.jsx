@@ -198,10 +198,7 @@ function App() {
           <h1>Hi, I'm <span className="highlight">Yatharth</span></h1>
           <h2 id="job-title"></h2>
           <p className="para-center">
-            I build and deploy Full Stack MERN Applications, with experience of working on
-            real world projects. I have also integrated machine learning services into many
-            applications to deliver intelligent and data driven solutions. Beyond coding, I am
-            passionate about traveling and engaging in discussions on space exploration and quantum computing.
+            I build and deploy Full Stack MERN Applications and have hands on experience working on real world projects. I have also integrated machine learning services into several applications to deliver intelligent and data driven solutions. Beyond coding, I'm passionate about traveling and enjoy engaging in discussions on space exploration and quantum computing.
           </p>
           <a href="#projects" className="btn">View My Work</a>
         </div>
@@ -215,14 +212,11 @@ function App() {
           <h2 className="section-title">About <span className="highlight">Me</span></h2>
           <div className="about-content">
             <div className="about-img">
-              <img className="profile-img" src="yatharth_img.jpg" alt="Profile" />
+              <img className="profile-img" src="yatharth.jpg" alt="Profile" />
             </div>
             <div className="about-text">
               <p>
-                I am a passionate Software Engineer specializing in Full Stack MERN Development.
-                I enjoy building user friendly and responsive web applications that not only look great
-                but also provide seamless and intuitive user experiences. My goal is to combine creativity with
-                functionality to build web applications that engage and delight users.
+                I am a Software Engineer with a strong specialization in Full Stack MERN (MongoDB, Express.js, React.js and Node.js) development. My core interest lies in designing and developing applications that are not only aesthetically pleasing but also deliver high performance and seamless user experiences across devices. I am proficient in buiding user friendly and responsive interfaces that prioritize both usability and accessibility. My objective is to build scalable and engaging software solutions that not only solve the real world problems, but also deliver value to the users.
               </p>
               <div className="about-btns">
                 <a href="https://drive.google.com/file/d/1m8LW2GvO1CMG-5i7PdZU2-awXlzEl14g/view?usp=drive_link" target='_blank' className="btn">Download CV</a>

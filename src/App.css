@@ -1,112 +1,126 @@
 /* Global Styles */
 :root {
-  --primary-color: #3498db;
-  --secondary-color: #2c3e50;
-  --accent-color: #e74c3c;
-  --light-color: #ecf0f1;
-  --dark-color: #2c3e50;
-  --text-color: #333;
-  --text-light: #7f8c8d;
-  --white: #fff;
-  --black: #000;
-  --transition: all 0.3s ease;
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --accent-color: #e74c3c;
+    --light-color: #ecf0f1;
+    --dark-color: #2c3e50;
+    --text-color: #333;
+    --text-light: #7f8c8d;
+    --white: #fff;
+    --black: #000;
+    --transition: all 0.3s ease;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  color: var(--text-color);
-  background-color: var(--white);
-  overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--white);
+    overflow-x: hidden;
 }
 
 .profile-img {
-  width: 200px; /* Slightly larger than before but not too big */
-  height: 200px; /* Making it square */
-  object-fit: cover;
-  border-radius: 10px; /* Changed from 50% to give it rounded corners instead of full circle */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  border: 3px solid #00bcd4;
-  transition: transform 0.3s ease;
-  margin: 0 auto; /* Center the image if needed */
-  display: block; /* Helps with centering */
+    width: 200px;
+    /* Slightly larger than before but not too big */
+    height: 200px;
+    /* Making it square */
+    object-fit: cover;
+    border-radius: 10px;
+    /* Changed from 50% to give it rounded corners instead of full circle */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border: 3px solid #00bcd4;
+    transition: transform 0.3s ease;
+    margin: 0 auto;
+    /* Center the image if needed */
+    display: block;
+    /* Helps with centering */
 }
 
 .profile-img:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .project-image {
-  width: 100%;
-  height: 200px;
-  object-fit: contain;
-  border-radius: 8px 8px 0 0;
-  transition: transform 0.3s ease;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 8px 8px 0 0;
+    transition: transform 0.3s ease;
 }
 
 .project-card:hover .project-image {
-  transform: scale(1.03);
+    transform: scale(1.03);
 }
 
-.para-center{
+.para-center {
     text-align: justify;
     text-align-last: center;
 }
 
 .tech-icon {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  list-style: none;
-  margin: 0.5rem 0;
-  font-size: 1rem;
-  color: #333; /* Adjust text color */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #333;
+    /* Adjust text color */
 }
 
 .icon-graphql {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-image: url('https://img.icons8.com/ios-filled/50/graphql.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  filter: brightness(0) saturate(100%); /* Makes icon black (remove if you want color) */
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('https://img.icons8.com/ios-filled/50/graphql.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: brightness(0) saturate(100%);
+    /* Makes icon black (remove if you want color) */
 }
 
 /* Optional hover effect */
 .tech-icon:hover .icon-graphql {
-  transform: scale(1.1);
-  transition: transform 0.2s ease;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
 }
 
 /* Typewriter Styles */
 #job-title {
-  min-height: 2.5rem;
-  display: inline-block;
-  position: relative;
+    min-height: 2.5rem;
+    display: inline-block;
+    position: relative;
 }
 
 #job-title::after {
-  content: '|';
-  position: absolute;
-  right: -10px;
-  color: var(--primary-color);
-  animation: blink-caret 0.75s step-end infinite;
+    content: '|';
+    position: absolute;
+    right: -10px;
+    color: var(--primary-color);
+    animation: blink-caret 0.75s step-end infinite;
 }
 
 @keyframes blink-caret {
-  from, to { opacity: 0 }
-  50% { opacity: 1 }
+
+    from,
+    to {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
 }
 
 a {
@@ -330,20 +344,18 @@ nav {
 
 .about-img {
     flex: 1;
+    min-height: 400px;
     border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .about-img img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: var(--transition);
-}
-
-.about-img:hover img {
-    transform: scale(1.05);
+    height: 44%; 
+    width: 44%;
+    object-fit: contain; 
+    border-radius: 10px;
 }
 
 .about-text {
@@ -642,12 +654,19 @@ footer p {
 
 /* Animations */
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         transform: translateY(0) translateX(-50%);
     }
+
     40% {
         transform: translateY(-20px) translateX(-50%);
     }
+
     60% {
         transform: translateY(-10px) translateX(-50%);
     }
