@@ -167,7 +167,7 @@ function App() {
     {
       title: "Portfolio Website",
       desc: "Showcasing my skills and projects, this portfolio highlights my development journey and my real world projects developed using the MERN Stack.",
-      link: "https://yatharth2906-portfolio.vercel.app/",
+      link: "https://yatharth2906.vercel.app/",
       repo: "https://github.com/yatharth-2906/portfolio",
       image: "portfolio.png"
     }
