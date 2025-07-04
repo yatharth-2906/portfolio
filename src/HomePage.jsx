@@ -219,7 +219,7 @@ function HomePage() {
                 I am a Software Engineer with a strong specialization in Full Stack MERN (MongoDB, Express.js, React.js and Node.js) development. My core interest lies in designing and developing applications that are not only aesthetically pleasing but also deliver high performance and seamless user experiences across devices. I am proficient in buiding user friendly and responsive interfaces that prioritize both usability and accessibility. My objective is to build scalable and engaging software solutions that not only solve the real world problems, but also deliver value to the users.
               </p>
               <div className="about-btns">
-                <a href="https://drive.google.com/file/d/1m8LW2GvO1CMG-5i7PdZU2-awXlzEl14g/view?usp=drive_link" target='_blank' className="btn">Download CV</a>
+                <a href="https://resume-craft-pro.vercel.app/file/a8f52acd9af740c7bccd2133/resume1" target='_blank' className="btn">Download CV</a>
                 <a href="#contact" className="btn btn-secondary">Contact Me</a>
               </div>
             </div>
